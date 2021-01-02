@@ -1,0 +1,6 @@
+version: 1.2
+workflows:
+   - name: miniwdl
+     subclass: WDL
+     primaryDescriptorPath: /bam_chrom_counter.wdl
+     testParameterFiles: /bam_chrom_counter.json
